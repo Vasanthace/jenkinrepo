@@ -1,2 +1,2 @@
-FROM sagarp12/mycossweb-docker
-COPY index.html /var/www/html
+FROM sagarp12/mycossweb-docker:v1
+COPY index.html /var/www/html/index.html
